@@ -658,17 +658,18 @@ body {
     }
     
     .top-header {
-        padding: 6px 0;
+        padding: 8px 0;
         font-size: 12px;
+        
     }
     
     .top-header-content {
-        flex-direction: column;
+        flex-direction: row;
         gap: 5px;
     }
     
     .right-info {
-        flex-direction: column;
+        flex-direction:row;
         gap: 5px;
     }
     
