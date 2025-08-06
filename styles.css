@@ -91,11 +91,10 @@ body {
     align-items: center;
 }
 
-.logo h1 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #443317;
-    margin: 0;
+.logo img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .nav-menu ul {
@@ -696,8 +695,8 @@ body {
         gap: 15px;
     }
     
-    .logo h1 {
-        font-size: 24px;
+    .logo img {
+        height: 32px;
     }
     
     .nav-menu {
@@ -918,6 +917,10 @@ body {
     .social-icon img {
         width: 16px;
         height: 16px;
+    }
+    
+    .logo img {
+        height: 28px;
     }
     
     .hero-overlay {
